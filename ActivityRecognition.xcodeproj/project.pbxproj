@@ -13,6 +13,8 @@
 		8F22365523BFA4500002F0B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F22365423BFA4500002F0B2 /* Assets.xcassets */; };
 		8F22365823BFA4500002F0B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F22365723BFA4500002F0B2 /* Preview Assets.xcassets */; };
 		8F22365B23BFA4500002F0B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F22365923BFA4500002F0B2 /* LaunchScreen.storyboard */; };
+		8F22366323BFA4F50002F0B2 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F22366223BFA4F50002F0B2 /* Tracking.swift */; };
+		8F22366523BFA6280002F0B2 /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F22366423BFA6280002F0B2 /* Motion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8F22365723BFA4500002F0B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8F22365A23BFA4500002F0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F22365C23BFA4500002F0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F22366223BFA4F50002F0B2 /* Tracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracking.swift; sourceTree = "<group>"; };
+		8F22366423BFA6280002F0B2 /* Motion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				8F22365923BFA4500002F0B2 /* LaunchScreen.storyboard */,
 				8F22365C23BFA4500002F0B2 /* Info.plist */,
 				8F22365623BFA4500002F0B2 /* Preview Content */,
+				8F22366223BFA4F50002F0B2 /* Tracking.swift */,
+				8F22366423BFA6280002F0B2 /* Motion.swift */,
 			);
 			path = ActivityRecognition;
 			sourceTree = "<group>";
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F22366323BFA4F50002F0B2 /* Tracking.swift in Sources */,
 				8F22364F23BFA44A0002F0B2 /* AppDelegate.swift in Sources */,
 				8F22365123BFA44A0002F0B2 /* SceneDelegate.swift in Sources */,
+				8F22366523BFA6280002F0B2 /* Motion.swift in Sources */,
 				8F22365323BFA44A0002F0B2 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
